@@ -4,7 +4,6 @@
 import 'dart:io';
 import 'package:estructura_de_datos_ejemplo/Clases/Libro.dart';
 import 'package:estructura_de_datos_ejemplo/Clases/Usuario.dart';
-import 'package:estructura_de_datos_ejemplo/Clases/Prestamo.dart';
 
 class Biblioteca {
   List<Libro> libros = [];
@@ -12,8 +11,6 @@ class Biblioteca {
 
   int siguienteIdLibro = 1;
   int siguienteIdUsuario = 1;
-  int siguienteIdPrestamo = 1;
-  List<Prestamo> prestamos = [];
 
   
   // REGISTRAR LIBRO
