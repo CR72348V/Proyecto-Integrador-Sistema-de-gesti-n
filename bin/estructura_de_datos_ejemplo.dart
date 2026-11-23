@@ -8,7 +8,7 @@ void main() {
   int opcion = 0;
 
   do {
-    print('\n--------------------------------');
+    print('\n-------------------------------');
     print(' SISTEMA DE BIBLIOTECA DIGITAL');
     print('--------------------------------');
     print('1. Registrar libro');
