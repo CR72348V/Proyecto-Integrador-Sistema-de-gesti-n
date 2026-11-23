@@ -20,10 +20,7 @@ void main() {
     print('7. Ordenar libros por título (Bubble Sort)');
     print('8. Ordenar libros por autor (Insertion Sort)');
     print('9. Eliminar libro');
-    print('10. Realizar prestamo');
-    print('11. Devolver libro');
-    print('12. Mostrar prestamos');
-    print('13. Salir');
+    print('10. Salir');
 
     stdout.write('Selecciona una opción: ');
 
@@ -67,24 +64,12 @@ void main() {
         break;
 
       case 10:
-        biblioteca.realizarPrestamo();
-        break;
-
-      case 11:
-        biblioteca.devolverLibro();
-        break;
-
-      case 12:
-        biblioteca.mostrarPrestamos();
-        break;
-
-      case 13:
         print('Saliendo del sistema...');
         break;
 
       default:
         print('Opción inválida.');
     }
-  } while (opcion != 13);
+  } while (opcion != 10);
 }
 
